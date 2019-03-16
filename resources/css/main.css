@@ -1,23 +1,39 @@
-/* ------------------ VARIABLES */
+/* ---------------------------- VARIABLES */
 
-/* ------------------ GLOBAL DEFAULTS */
+/* ---------------------------- GLOBAL DEFAULTS */
 
-/* ------------------ HEADINGS AND TYPE */
+/* ---------------------------- HEADINGS AND TYPE */
 
-/* ------------------ LAYOUTS */
+/* ---------------------------- LAYOUTS */
+.layout-wide {
+    max-width: 1200px;
 
-/* ------------------ HEADERS */
+    margin-bottom: 80px;
+
+    padding-left: 3%;
+    padding-right: 3%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    .layout-full-width {
+        width: 100%;
+        margin-bottom:80px;
+    }
+}
+
+/* ---------------------------- HEADERS */
 header {
     background-color: #084e3f;
 }
 
 
-/* ------------------ NAVIGATION */
+/* ---------------------------- NAVIGATION */
 
-/* ------------------ FOOTER */
+/* ---------------------------- FOOTER */
 
 footer {
     background-color: #084e3f;
 }
 
-/* ------------------ MODULES */
+/* ---------------------------- MODULES */
