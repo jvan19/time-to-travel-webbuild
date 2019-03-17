@@ -306,3 +306,14 @@ input[type="email"]{
         }
 
     }
+
+    /* Grids */
+
+    @media screen and (min-width:800px) {
+        .content-area-grid {
+            display: grid;
+            grid-template-columns: 48% 48%;
+
+            justify-content: space-between;
+        }
+    }
