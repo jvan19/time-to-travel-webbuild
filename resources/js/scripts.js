@@ -1,7 +1,7 @@
 cssVars();
 
 
-//  ope'n and close nav
+//  open and close nav
 
 $('.nav-prompt').click(function()  {
     
@@ -15,3 +15,12 @@ $('.nav-prompt').click(function()  {
     }
 
 });
+
+//image gallery 
+function imageGallery() {
+    if ($('.image-gallery').length) {
+        $('.image-gallery a').simpleLightbox();
+    }
+}
+
+imageGallery();
